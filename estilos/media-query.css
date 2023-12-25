@@ -20,6 +20,7 @@ Grandes telas: acima de 1200px
     section#login {
 
         width: 80vw;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -33,6 +34,11 @@ Grandes telas: acima de 1200px
         width: 70%;
     }
 
+    div#formulário > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
  }
 
  @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -44,6 +50,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -59,6 +66,7 @@ Grandes telas: acima de 1200px
 
     div#formulário > p {
         font-size: 1em;
+        margin: 20px 0px;
     }
 
 }
@@ -72,6 +80,7 @@ Grandes telas: acima de 1200px
 
         section#login {
             width: 1000px;
+            height: 400px;
         }
     
         section#login > div#imagem {
@@ -87,6 +96,7 @@ Grandes telas: acima de 1200px
 
         div#formulário > p {
             font-size: 1em;
+            margin: 20px 0px;
         }
 
  }
